@@ -1,11 +1,11 @@
 # Awesome-LLM-Agent-Papers
-papers related to LLM-agent that published on top conferences recently. Currently, our repository has included:
+For benefiting the research community and promoting LLM-powered agent direction, we organize papers related to LLM-powered agent that published on top conferences recently. Currently, our repository has included:
 - `2023`: `NIPS`
 
 We are glad for pointing out our misunderstandings, and welcome to contribute to this repository!
 
 #### What's new:
-- 2023/9/26	We add papers from `NIPS'23`.
+- 2023/9/26	We add papers from `Neurips'23`.
 
 ## Contents
 
