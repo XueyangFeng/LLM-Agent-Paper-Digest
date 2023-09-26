@@ -24,9 +24,20 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 #### Agent Memory
 
+**[Agent Memory] Reflexion: language agents with verbal reinforcement learning**. [[Paper](https://arxiv.org/abs/2303.11366)] [[Code](https://github.com/noahshinn024/reflexion)] (2023-NIPS)
+**TLDR**: We devise a new Variational Auto-Encoder for causal modeling by incorporating an encoder to infer unobserved user features from historical interactions, and further perform counterfactual inference to mitigate the effect of out-of-date interactions. (推荐OOD下的因果表征学习) 
+
 #### Agent Planning
 
+**Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents**.  (2023-NIPS)
+
+**Large Language Models as Commonsense Knowledge for Large-Scale Task Planning**.  (2023-NIPS)
+
+**Tree of Thoughts: Deliberate Problem Solving with Large Language Models**.  (2023-NIPS)
+
 #### Agent Action
+
+**GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction**.  (2023-NIPS)
 
 ### Agent Application
 
@@ -38,9 +49,9 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 ### Agent Evaluation
 
-**Reflexion: language agents with verbal reinforcement learning**.  (2023-NIPS)
+**On the Planning Abilities of Large Language Models - A Critical Investigation**.  (2023-NIPS)
 
-**Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents**.  (2023-NIPS)
+
 
 **SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks**.  (2023-NIPS)
 
@@ -74,21 +85,15 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 **3D-LLM: Injecting the 3D World into Large Language Models**.  (2023-NIPS)
 
-**Large Language Models as Commonsense Knowledge for Large-Scale Task Planning**.  (2023-NIPS)
 
 **MarioGPT: Open-Ended Text2Level Generation through Large Language Models**.  (2023-NIPS)
 
-**GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction**.  (2023-NIPS)
-
 **Evaluating Cognitive Maps in Large Language Models: No Emergent Planning**.  (2023-NIPS)
-
-**On the Planning Abilities of Large Language Models - A Critical Investigation**.  (2023-NIPS)
 
 **Grammar Prompting for Domain-Specific Language Generation with Large Language Models**.  (2023-NIPS)
 
 **Using Large Language Model Annotations for Valid Downstream Statistical Inference in Social Science: Design-Based Semi-Supervised Learning**.  (2023-NIPS)
 
-**Tree of Thoughts: Deliberate Problem Solving with Large Language Models**.  (2023-NIPS)
 
 **Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning**.  (2023-NIPS)
 
