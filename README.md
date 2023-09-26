@@ -24,7 +24,7 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 #### Agent Memory
 
-**[Agent Memory] Reflexion: language agents with verbal reinforcement learning**. [[Paper](https://arxiv.org/abs/2303.11366)] [[Code](https://github.com/noahshinn024/reflexion)] (2023-NIPS)
+**[Agent Memory] Reflexion: language agents with verbal reinforcement learning**. [[Paper](https://arxiv.org/abs/2303.11366)] [[Code](https://github.com/noahshinn024/reflexion)] <img src="https://img.shields.io/badge/Neurips-2023-green" alt="license"> <br>
 **TLDR**: We devise a new Variational Auto-Encoder for causal modeling by incorporating an encoder to infer unobserved user features from historical interactions, and further perform counterfactual inference to mitigate the effect of out-of-date interactions. (推荐OOD下的因果表征学习) 
 
 #### Agent Planning
