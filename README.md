@@ -29,7 +29,8 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 #### Agent Planning
 
-**Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents**.  (2023-NIPS)
+**[Agent Planning] Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents**.   <img src="https://img.shields.io/badge/Neurips-2023-green" alt="license"> <br>
+**TLDR**: LLM-powered agent could get better error correction through feedback, while introducing a goal selector to rank and improve planning based on predicted completion steps. (引入了任务选择器，实现了MineCraft中的多任务代理) 
 
 **Large Language Models as Commonsense Knowledge for Large-Scale Task Planning**.  (2023-NIPS)
 
