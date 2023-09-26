@@ -29,10 +29,11 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 #### Agent Planning
 
-**[Agent Planning] Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents**.   <img src="https://img.shields.io/badge/Neurips-2023-green" alt="license"> <br>
+**[Agent Planning] Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents**.  [[Paper](https://arxiv.org/abs/2302.01560)] [[Code](https://github.com/CraftJarvis/MC-Planner)] <img src="https://img.shields.io/badge/Neurips-2023-green" alt="license"> <br>
 **TLDR**: LLM-powered agent could get better error correction through feedback, while introducing a goal selector to rank and improve planning based on predicted completion steps. (引入了任务选择器，实现了MineCraft中的多任务代理) 
 
-**Large Language Models as Commonsense Knowledge for Large-Scale Task Planning**.  (2023-NIPS)
+**Large Language Models as Commonsense Knowledge for Large-Scale Task Planning**.  [[Paper](https://arxiv.org/abs/2305.14078)]  <img src="https://img.shields.io/badge/Neurips-2023-green" alt="license"> <br>
+**TLDR**: Using Large Language Models (LLMs) as Common Sense World Models and Heuristic Strategies to Solve Complex Task Planning Prob. (利用大型语言模型（LLMs）作为常识世界模型和启发式策略来解决复杂任务规划问题) 
 
 **Tree of Thoughts: Deliberate Problem Solving with Large Language Models**.  (2023-NIPS)
 
