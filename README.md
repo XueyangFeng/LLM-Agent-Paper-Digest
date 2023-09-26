@@ -9,6 +9,20 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 ## Contents
 
+- [Agent Building](#Agent-Building)
+- [Agent Application](#Causal-Discovery)
+- [Causal Representation Learning](#Causal-Representation-Learning)
+- [Counterfactual Inference](#Counterfactual-Inference)
+- [Causal Application](#Causal-Application)
+  - [Causal in RecSys](#Causal-in-RecSys)
+  - [Causal in RL](#Causal-in-RL)
+  - [Causal in NLP](#Causal-in-NLP)
+  - [Causal in CV](#Causal-in-CV)
+  - [Causal in Bio](#Causal-in-Bio)
+  - [Causal in IR](#Causal-in-IR)
+
+### Agent Building
+
 **Reflexion: language agents with verbal reinforcement learning**.  (2023-NIPS)
 
 **Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents**.  (2023-NIPS)
