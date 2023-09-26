@@ -1,4 +1,4 @@
-# LLM-agent-paper
+# Awesome-LLM-Agent-Papers
 papers related to LLM-agent that published on top conferences recently. Currently, our repository has included:
 - `2023`: `NIPS`
 
