@@ -10,6 +10,7 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 ## Contents
 
 - [Agent Building](#Agent-Building)
+  - [Agent Profile](#Agent-Profile)
   - [Agent Memory](#Agent-Memory)
   - [Agent Planning](#Agent-Planning)
   - [Agent Action](#Agent-Action)
