@@ -36,6 +36,9 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Agent Memory] SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks**. [[Paper](https://arxiv.org/abs/2305.17390)] [[Code](https://github.com/yuchenlin/SwiftSage)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: This paper introduces a novel agent framework called SWIFTSAGE, which combines a fast and intuitive thinking module, SWIFT, with a deliberate thinking module, SAGE, to optimize action planning in complex interactive reasoning tasks. SWIFT is a fine-tuned small encoder-decoder LM, while SAGE employs LLMs like GPT-4 for subgoal planning and grounding. (结合小模型快速思考和大模型深思熟虑) 
 
+**[Agent Memory] Large Language Model Is Semi-Parametric Reinforcement Learning Agent**.   [[Paper](https://arxiv.org/abs/2306.07929)] [[Code](https://github.com/noahshinn024/reflexion)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: By equipping the LLM with a longterm experience memory, REMEMBERER is capable of exploiting the experiences from the past episodes even for different task goals, which excels an LLM-based agent with fixed exemplars or equipped with a transient working memory. (为LLM配备长期经验记忆，构建一个半参数化的强化学习agent) 
+
 
 #### Agent Planning
 
