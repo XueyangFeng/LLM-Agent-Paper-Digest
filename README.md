@@ -22,25 +22,49 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 ### Agent Building
 
+#### Agent Profile
+
+**[Agent Profile]CAMEL: Communicative Agents for “Mind” Exploration of Large Scale Language Model Society**.   [[Paper](https://arxiv.org/abs/2303.17760)]  [[Code](https://github.com/camel-ai/camel)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: The paper presents CAMEL, a framework that fosters autonomous cooperation between communicative agents. Using a role-playing approach, it employs inception prompting to guide chat agents in tasks, aligning with human intentions. (通过角色扮演提高Agent能力)
+
+
 #### Agent Memory
 
 **[Agent Memory] Reflexion: language agents with verbal reinforcement learning**. [[Paper](https://arxiv.org/abs/2303.11366)] [[Code](https://github.com/noahshinn024/reflexion)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: Reflexion maintains the feedback signal from the tasks in long-term and short-term memory buffers for reflection to make better decisions on subsequent trials. (利用长短期记忆维护反馈并进行反思) 
+
+**[Agent Memory] SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks**. [[Paper](https://arxiv.org/abs/2305.17390)] [[Code](https://github.com/yuchenlin/SwiftSage)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: This paper introduces a novel agent framework called SWIFTSAGE, which combines a fast and intuitive thinking module, SWIFT, with a deliberate thinking module, SAGE, to optimize action planning in complex interactive reasoning tasks. SWIFT is a fine-tuned small encoder-decoder LM, while SAGE employs LLMs like GPT-4 for subgoal planning and grounding. (结合小模型快速思考和大模型深思熟虑) 
+
 
 #### Agent Planning
 
 **[Agent Planning] Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents**.  [[Paper](https://arxiv.org/abs/2302.01560)] [[Code](https://github.com/CraftJarvis/MC-Planner)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: LLM-powered agent could get better error correction through feedback, while introducing a goal selector to rank and improve planning based on predicted completion steps. (引入了任务选择器，实现了MineCraft中的多任务代理) 
 
-**Large Language Models as Commonsense Knowledge for Large-Scale Task Planning**.  [[Paper](https://arxiv.org/abs/2305.14078)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**[Agent Planning] Large Language Models as Commonsense Knowledge for Large-Scale Task Planning**.  [[Paper](https://arxiv.org/abs/2305.14078)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: Using Large Language Models (LLMs) as Common Sense World Models and Heuristic Strategies to Solve Complex Task Planning Prob. (利用大型语言模型（LLMs）作为常识世界模型和启发式策略来解决复杂任务规划问题) 
 
-**Tree of Thoughts: Deliberate Problem Solving with Large Language Models**.   [[Paper](https://arxiv.org/abs/2305.10601)]  [[Code](https://github.com/ysymyth/tree-of-thought-llm)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**[Agent Planning] Tree of Thoughts: Deliberate Problem Solving with Large Language Models**.   [[Paper](https://arxiv.org/abs/2305.10601)]  [[Code](https://github.com/ysymyth/tree-of-thought-llm)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: we introduce a new framework for language model inference, "Tree of Thoughts" (ToT), which generalizes over the popular "Chain of Thought" approach to prompting language models, and enables exploration over coherent units of text ("thoughts") that serve as intermediate steps toward problem solving. (鼓励大模型考虑多个不同的推理路径) 
+
+
+**[Agent Planning] Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models**.   [[Paper](https://arxiv.org/abs/2304.09842)]  [[Code](https://chameleon-llm.github.io/)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: "Chameleon" is an AI system that enhances Large Language Models by integrating plug-and-play modules for advanced reasoning. It combines tools like vision models and web search engines to address LLM limitations. (通过外部工具提高LLM推理能力)
+
+**[Agent Planning] LayoutGPT: Compositional Visual Planning and Generation with Large Language Models**.   [[Paper](https://arxiv.org/abs/2305.15393)]  [[Code](https://github.com/weixi-feng/LayoutGPT)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: This paper introduces a method using Large Language Models to transform text descriptions into 2D and 3D visual layouts, demonstrating strong performance across various visual domains. (通过LLM生成2D和3D布局)
+
  
 #### Agent Action
 
 **GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction**.  (2023-NIPS)
+
+
+
+
+
+
 
 ### Agent Application
 
@@ -48,31 +72,26 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 #### Agent in Natural Science
 
-#### Agent in Engineer
+**[Natural Science] De novo Drug Design using Reinforcement Learning with Multiple GPT Agents**.    <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: Awaiting publication.
+
+
+#### Agent in Engineering
+
+**[Engineering] LLMs for Semi-Automated Data Science: Introducing CAAFE for Context-Aware Automated Feature Engineering**.   [[Paper](https://arxiv.org/pdf/2305.03403.pdf)]  [[Code](https://github.com/automl/CAAFE)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: This paper introduces a method called CAAFE that harnesses Large Language Models for feature engineering on tabular datasets. CAAFE iteratively generates semantically meaningful features based on dataset descriptions and provides explanations for the created features. This approach has improved performance across multiple datasets. (LLM自动优化特征工程)
+
+
+**[Engineering] SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models**   [[Paper](https://arxiv.org/abs/2305.19308)]  [[Code](https://sheetcopilot-demo.github.io/)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: The paper presents SheetCopilot, an agent using Large Language Models to interact with spreadsheets via natural language. It translates complex requests into actionable steps, outperforming traditional programming methods in various tasks. (Agent和电子表格交互)
+
 
 ### Agent Evaluation
 
-**On the Planning Abilities of Large Language Models - A Critical Investigation**.  (2023-NIPS)
+**[Agent Evaluation] On the Planning Abilities of Large Language Models - A Critical Investigation**.   [[Paper](https://arxiv.org/abs/2302.06706)]  [[Code](https://github.com/karthikv792/LLMs-Planning)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: By developing a benchmark suite based on the International Planning Competition, the study evaluates the performance of LLMs in three modes: autonomous, heuristic, and human-in-the-loop. (评估LLM的Planning能力)
 
 
-
-**SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks**.  (2023-NIPS)
-
-**CAMEL: Communicative Agents for “Mind” Exploration of Large Scale Language Model Society**.  (2023-NIPS)
-
-**De novo Drug Design using Reinforcement Learning with Multiple GPT Agents**.  (2023-NIPS) 
-
-**LLMs for Semi-Automated Data Science: Introducing CAAFE for Context-Aware Automated Feature Engineering**.  (2023-NIPS)
-
-**Large Language Models Are Implicitly Topic Models: Explaining and Finding Good Demonstrations for In-Context Learning**.  (2023-NIPS)
-
-**SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models**.  (2023-NIPS)
-
-**Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models**.  (2023-NIPS)
-
-**Flocks of Stochastic Parrots: Differentially Private Prompt Learning for Large Language Models**.  (2023-NIPS)
-
-**LayoutGPT: Compositional Visual Planning and Generation with Large Language Models**.  (2023-NIPS)
 
 **AVIS: Autonomous Visual Information Seeking with Large Language Models**.  (2023-NIPS)
 
