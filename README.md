@@ -37,6 +37,9 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 **[Agent Planning] Tree of Thoughts: Deliberate Problem Solving with Large Language Models**.   [[Paper](https://arxiv.org/abs/2305.10601)]  [[Code](https://github.com/ysymyth/tree-of-thought-llm)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: We introduce a new framework for language model inference, "Tree of Thoughts" (ToT), which generalizes over the popular "Chain of Thought" approach to prompting language models, and enables exploration over coherent units of text ("thoughts") that serve as intermediate steps toward problem solving. (鼓励大模型考虑多个不同的推理路径) 
+
+**[Agent Planning] Large Language Models can Implement Policy Iteration**.  [[Paper](https://arxiv.org/abs/2210.03821v2)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**:  In this work, we present an algorithm, ICPI, that learns to perform RL tasks without expert demonstrations or gradients. Instead we present a policy-iteration method in which the prompt content is the entire locus of learning. ICPI iteratively updates the contents of the prompt from which it derives its policy through trial-and-error interaction with an RL environment. (LLM作为model-base强化学习的world-model和policy)
  
 #### Agent Action
 
