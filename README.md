@@ -5,7 +5,7 @@ For benefiting the research community and promoting LLM-powered agent direction,
 We are glad for pointing out our misunderstandings, and welcome to contribute to this repository!
 
 #### What's new:
-- 2023/9/26	We add papers from `Neurips'23`.
+- 2023/9/26	We add papers from `NIPS'23`.
 
 ## Contents
 
@@ -24,15 +24,15 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 #### Agent Memory
 
-**[Agent Memory] Reflexion: language agents with verbal reinforcement learning**. [[Paper](https://arxiv.org/abs/2303.11366)] [[Code](https://github.com/noahshinn024/reflexion)] <img src="https://img.shields.io/badge/Neurips-2023-green" alt="license"> <br>
+**[Agent Memory] Reflexion: language agents with verbal reinforcement learning**. [[Paper](https://arxiv.org/abs/2303.11366)] [[Code](https://github.com/noahshinn024/reflexion)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: Reflexion maintains the feedback signal from the tasks in long-term and short-term memory buffers for reflection to make better decisions on subsequent trials. (利用长短期记忆维护反馈并进行反思) 
 
 #### Agent Planning
 
-**[Agent Planning] Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents**.  [[Paper](https://arxiv.org/abs/2302.01560)] [[Code](https://github.com/CraftJarvis/MC-Planner)] <img src="https://img.shields.io/badge/Neurips-2023-green" alt="license"> <br>
+**[Agent Planning] Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents**.  [[Paper](https://arxiv.org/abs/2302.01560)] [[Code](https://github.com/CraftJarvis/MC-Planner)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: LLM-powered agent could get better error correction through feedback, while introducing a goal selector to rank and improve planning based on predicted completion steps. (引入了任务选择器，实现了MineCraft中的多任务代理) 
 
-**Large Language Models as Commonsense Knowledge for Large-Scale Task Planning**.  [[Paper](https://arxiv.org/abs/2305.14078)]  <img src="https://img.shields.io/badge/Neurips-2023-green" alt="license"> <br>
+**Large Language Models as Commonsense Knowledge for Large-Scale Task Planning**.  [[Paper](https://arxiv.org/abs/2305.14078)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: Using Large Language Models (LLMs) as Common Sense World Models and Heuristic Strategies to Solve Complex Task Planning Prob. (利用大型语言模型（LLMs）作为常识世界模型和启发式策略来解决复杂任务规划问题) 
 
 **Tree of Thoughts: Deliberate Problem Solving with Large Language Models**.  (2023-NIPS)
@@ -115,8 +115,8 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 ### Contributors
 
-Xueyang Feng: `Neurips'23`
+Xueyang Feng: `NIPS'23`
 
-Lei Wang: `Neurips'23`
+Lei Wang: `NIPS'23`
 
-Chen Ma: `Neurips'23`
+Chen Ma: `NIPS'23`
