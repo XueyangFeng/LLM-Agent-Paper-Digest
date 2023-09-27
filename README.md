@@ -3,6 +3,8 @@ For benefiting the research community and promoting LLM-powered agent direction,
 - `2023`: `NIPS`
 
 We are glad for pointing out our misunderstandings, and welcome to contribute to this repository!
+Our taxonomy refers to [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432), you can find more comprehensive analyses on [github](https://github.com/Paitesanshi/LLM-Agent-Survey)
+
 
 #### What's new:
 - 2023/9/26	We add papers from `NIPS'23`.
