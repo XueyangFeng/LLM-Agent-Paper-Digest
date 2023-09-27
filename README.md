@@ -118,9 +118,6 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 **Thrust: Adaptively Propels Large Language Models with External Knowledge**.  (2023-NIPS)
 
-**Large Language Model Is Semi-Parametric Reinforcement Learning Agent**.  (2023-NIPS)
-
-**Large Language Models can Implement Policy Iteration**.  (2023-NIPS)
 
 ### Contributors
 
