@@ -73,17 +73,17 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 #### Agent in Natural Science
 
 
-#### Agent in Engineer
-**[Agent in Engineer] Zero-shot Visual Relation Detection via Composite Visual Cues from Large Language Models**.  [[Paper](https://arxiv.org/abs/2305.12476)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+#### Agent in Engineering
+**[Engineering] Zero-shot Visual Relation Detection via Composite Visual Cues from Large Language Models**.  [[Paper](https://arxiv.org/abs/2305.12476)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  We propose a novel method for zero-shot VRD: RECODE, which solves RElation detection via COmposite DEscription prompts. Specifically, RECODE first decomposes each predicate category into subject, object, and spatial components. Then, it leverages large language models (LLMs) to generate description-based prompts (or visual cues) for each component. (通过LLM给出的复合视觉线索进行零样本视觉关系检测)
 
-**[Agent in Engineer] Zero-shot Visual Relation Detection via Composite Visual Cues from Large Language Models**.  [[Paper](https://arxiv.org/abs/2305.11175)] [[Code](https://github.com/OpenGVLab/VisionLLM)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**[Engineering] Zero-shot Visual Relation Detection via Composite Visual Cues from Large Language Models**.  [[Paper](https://arxiv.org/abs/2305.11175)] [[Code](https://github.com/OpenGVLab/VisionLLM)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  We present an LLM-based framework for vision-centric tasks, termed VisionLLM. This framework provides a unified perspective for vision and language tasks by treating images as a foreign language and aligning vision-centric tasks with language tasks that can be flexibly defined and managed using language instructions. An LLM-based decoder can then make appropriate predictions based on these instructions for open-ended tasks.(为以视觉为中心的任务提出了一个基于LLM的框架)
 
-**[Agent in Engineer] 3D-LLM: Injecting the 3D World into Large Language Models**.  [[Paper](https://arxiv.org/abs/2307.12981)] [[Code](https://vis-www.cs.umass.edu/3dllm/)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**[Engineering] 3D-LLM: Injecting the 3D World into Large Language Models**.  [[Paper](https://arxiv.org/abs/2307.12981)] [[Code](https://vis-www.cs.umass.edu/3dllm/)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  We propose to inject the 3D world into large language models and introduce a whole new family of 3D-LLMs. Specifically, 3D-LLMs can take 3D point clouds and their features as input and perform a diverse set of 3D-related tasks, including captioning, dense captioning, 3D question answering, task decomposition, 3D grounding, 3D-assisted dialog, navigation, and so on. (将3D世界注入到LLM中)
 
-**[Agent in Engineer] Grammar Prompting for Domain-Specific Language Generation with Large Language Models**.  [[Paper](https://arxiv.org/abs/2305.19234)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**[Engineering] Grammar Prompting for Domain-Specific Language Generation with Large Language Models**.  [[Paper](https://arxiv.org/abs/2305.19234)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  
 The paper explores the use of grammar prompting as a simple approach to enable large language models (LLMs) to use external knowledge and domain-specific constraints during in-context learning. The authors demonstrate that grammar prompting can enable LLMs to perform competitively on a diverse set of domain-specific language generation tasks, including semantic parsing, PDDL planning, and even molecule generation.(使用语法提示使LLMs在上下文学习期间使用外部知识和领域特定约束。)
 
