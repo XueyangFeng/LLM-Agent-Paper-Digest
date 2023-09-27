@@ -2,7 +2,7 @@
 For benefiting the research community and promoting LLM-powered agent direction, we organize papers related to LLM-powered agent that published on top conferences recently. Currently, our repository has included:
 - `2023`: `NIPS`
 
-Our taxonomy refers to [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432), more papers can be found at  [LLM-Agent-Survey].(https://github.com/Paitesanshi/LLM-Agent-Survey)
+Our taxonomy refers to [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432), more papers can be found at  [LLM-Agent-Survey](https://github.com/Paitesanshi/LLM-Agent-Survey).   <br>
 
 We are glad for pointing out our misunderstandings, and welcome to contribute to this repository!
 
