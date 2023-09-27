@@ -108,7 +108,7 @@ The paper explores the use of grammar prompting as a simple approach to enable l
 
 ### Agent Evaluation
 **[Agent Evaluation] Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples**.  [[Paper](https://arxiv.org/abs/2305.15269)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
-**TLDR**:  To measure the general deductive reasoning ability of LLMs, we test on a broad set of deduction rules and measure their ability to generalize to more complex proofs from simpler demonstrations from multiple angles: depth-, width-, and compositional generalization. To facilitate systematic exploration, we construct a new synthetic and programmable reasoning dataset that enables control over deduction rules and proof complexity.  (使用OOD示例评估LLM的推理能力)
+**TLDR**:  To measure the general deductive reasoning ability of LLMs, we test on a broad set of deduction rules and measure their ability to generalize to more complex proofs from simpler demonstrations from multiple angles: depth-, width-, and compositional generalization. To facilitate systematic exploration, we construct a new synthetic and programmable reasoning dataset that enables control over deduction rules and proof complexity. (使用OOD示例评估LLM的推理能力)
 
 **[Agent Evaluation] Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples**.  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  
@@ -119,7 +119,7 @@ We propose CogEval, a Cognitive Science-Inspired protocol for Measurement and Ev
 
 **[Agent Evaluation] Large Language Models of Code Fail at Completing Code with Potential Bugs**.  [[Paper](https://arxiv.org/abs/2306.03438)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  
-We introduce and study the buggy-code completion problem, inspired by the realistic scenario of real-time code suggestion where the code context contains potential bugs – anti-patterns that can become bugs in the completed program. To systematically study the task, we introduce two datasets: one with synthetic bugs derived from semantics-altering operator changes (buggy-HumanEval) and one with realistic bugs derived from user submissions to coding problems (buggy-FixEval). We find that the presence of potential bugs significantly degrades the generation performance of the high-performing Code-LLMs.(引入了测试Code-LLM的buggy-code completion问题)
+We introduce and study the buggy-code completion problem, inspired by the realistic scenario of real-time code suggestion where the code context contains potential bugs – anti-patterns that can become bugs in the completed program. To systematically study the task, we introduce two datasets: one with synthetic bugs derived from semantics-altering operator changes (buggy-HumanEval) and one with realistic bugs derived from user submissions to coding problems (buggy-FixEval). We find that the presence of potential bugs significantly degrades the generation performance of the high-performing Code-LLMs. (引入了测试Code-LLM的buggy-code completion问题)
 
 
 ### Contributors
