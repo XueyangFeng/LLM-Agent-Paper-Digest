@@ -70,6 +70,10 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 #### Agent in Social Science
 
+**[Social Science] Using Large Language Model Annotations for Valid Downstream Statistical Inference in Social Science: Design-Based Semi-Supervised Learning**.  [[Paper](https://arxiv.org/abs/2306.04746)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**:  We present a new algorithm for using outputs from LLMs for downstream statistic alanalyses while guaranteeing statistical properties -- like asymptotic unbiasedness and proper uncertainty quantification -- which are fundamental to CSS research. (用LLM的输出进行社会科学的文档标签的下游统计分析)
+
+
 #### Agent in Natural Science
 
 **[Natural Science] De novo Drug Design using Reinforcement Learning with Multiple GPT Agents**.    <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
@@ -95,7 +99,12 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 **[Engineering] Grammar Prompting for Domain-Specific Language Generation with Large Language Models**.  [[Paper](https://arxiv.org/abs/2305.19234)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  
-The paper explores the use of grammar prompting as a simple approach to enable large language models (LLMs) to use external knowledge and domain-specific constraints during in-context learning. The authors demonstrate that grammar prompting can enable LLMs to perform competitively on a diverse set of domain-specific language generation tasks, including semantic parsing, PDDL planning, and even molecule generation.(使用语法提示使LLMs在上下文学习期间使用外部知识和领域特定约束。)
+The paper explores the use of grammar prompting as a simple approach to enable large language models (LLMs) to use external knowledge and domain-specific constraints during in-context learning. The authors demonstrate that grammar prompting can enable LLMs to perform competitively on a diverse set of domain-specific language generation tasks, including semantic parsing, PDDL planning, and even molecule generation.(使用语法提示使LLMs在上下文学习期间使用外部知识和领域特定约束)
+
+
+**[Engineering] What’s Left: Concept Grounding with Large Language Models**.   <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: Awaiting publication.
+
 
 ### Agent Evaluation
 **[Agent Evaluation] Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples**.  [[Paper](https://arxiv.org/abs/2305.15269)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
@@ -108,45 +117,9 @@ We propose CogEval, a Cognitive Science-Inspired protocol for Measurement and Ev
 **[Agent Evaluation] On the Planning Abilities of Large Language Models - A Critical Investigation**.   [[Paper](https://arxiv.org/abs/2302.06706)]  [[Code](https://github.com/karthikv792/LLMs-Planning)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: By developing a benchmark suite based on the International Planning Competition, the study evaluates the performance of LLMs in three modes: autonomous, heuristic, and human-in-the-loop. (评估LLM的Planning能力)
 
-
-
-
-
-**AVIS: Autonomous Visual Information Seeking with Large Language Models**.  (2023-NIPS)
-
-**Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples**.  (2023-NIPS)
-
-**Fairness-guided Few-shot Prompting for Large Language Models**.  (2023-NIPS)
-
-**Zero-shot Visual Relation Detection via Composite Visual Cues from Large Language Models**.  (2023-NIPS)
-
-**VisionLLM: Large Language Model is also an Open-Ended Decoder for Vision-Centric Tasks**.  (2023-NIPS)
-
-**LayoutPrompter: Awaken the Design Ability of Large Language Models**.  (2023-NIPS)
-
-**3D-LLM: Injecting the 3D World into Large Language Models**.  (2023-NIPS)
-
-
-**MarioGPT: Open-Ended Text2Level Generation through Large Language Models**.  (2023-NIPS)
-
-**Evaluating Cognitive Maps in Large Language Models: No Emergent Planning**.  (2023-NIPS)
-
-**Grammar Prompting for Domain-Specific Language Generation with Large Language Models**.  (2023-NIPS)
-
-**Using Large Language Model Annotations for Valid Downstream Statistical Inference in Social Science: Design-Based Semi-Supervised Learning**.  (2023-NIPS)
-
-
-****.  (2023-NIPS)
-
-**Large Language Models of Code Fail at Completing Code with Potential Bugs**.  (2023-NIPS)
-
-**In-Context Impersonation Reveals Large Language Models' Strengths and Biases**.  (2023-NIPS)
-
-**Meta-in-context learning in large language models**.  (2023-NIPS)
-
-**What’s Left: Concept Grounding with Large Language Models**.  (2023-NIPS)
-
-**Thrust: Adaptively Propels Large Language Models with External Knowledge**.  (2023-NIPS)
+**[Agent Evaluation] Large Language Models of Code Fail at Completing Code with Potential Bugs**.  [[Paper](https://arxiv.org/abs/2306.03438)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**:  
+We introduce and study the buggy-code completion problem, inspired by the realistic scenario of real-time code suggestion where the code context contains potential bugs – anti-patterns that can become bugs in the completed program. To systematically study the task, we introduce two datasets: one with synthetic bugs derived from semantics-altering operator changes (buggy-HumanEval) and one with realistic bugs derived from user submissions to coding problems (buggy-FixEval). We find that the presence of potential bugs significantly degrades the generation performance of the high-performing Code-LLMs.(引入了测试Code-LLM的buggy-code completion问题)
 
 
 ### Contributors
