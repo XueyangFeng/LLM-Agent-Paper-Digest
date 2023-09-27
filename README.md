@@ -50,7 +50,10 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 **[Agent Planning] Tree of Thoughts: Deliberate Problem Solving with Large Language Models**.   [[Paper](https://arxiv.org/abs/2305.10601)]  [[Code](https://github.com/ysymyth/tree-of-thought-llm)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: we introduce a new framework for language model inference, "Tree of Thoughts" (ToT), which generalizes over the popular "Chain of Thought" approach to prompting language models, and enables exploration over coherent units of text ("thoughts") that serve as intermediate steps toward problem solving. (鼓励大模型考虑多个不同的推理路径) 
- 
+
+**[Agent Planning] Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning**.   [[Paper](https://arxiv.org/abs/2305.14909)]  [[Code](https://github.com/GuanSuns/LLMs-World-Models-for-Planning)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**:  we introduce a novel alternative paradigm that constructs an explicit world (domain) model in planning domain definition language (PDDL) and then uses it to plan with sound domain-independent planners.  (大模型+外部规划器) 
+
 #### Agent Action
 
 **[Agent Action] GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction**.   [[Paper](https://arxiv.org/abs/2305.18752)]  [[Code](https://github.com/AILab-CVC/GPT4Tools)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
@@ -107,7 +110,7 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **Using Large Language Model Annotations for Valid Downstream Statistical Inference in Social Science: Design-Based Semi-Supervised Learning**.  (2023-NIPS)
 
 
-**Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning**.  (2023-NIPS)
+****.  (2023-NIPS)
 
 **Large Language Models of Code Fail at Completing Code with Potential Bugs**.  (2023-NIPS)
 
