@@ -54,10 +54,17 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Agent Planning] Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning**.   [[Paper](https://arxiv.org/abs/2305.14909)]  [[Code](https://github.com/GuanSuns/LLMs-World-Models-for-Planning)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  we introduce a novel alternative paradigm that constructs an explicit world (domain) model in planning domain definition language (PDDL) and then uses it to plan with sound domain-independent planners.  (大模型+外部规划器) 
 
+**[Agent Planning] Large Language Models can Implement Policy Iteration**.  [[Paper](https://arxiv.org/abs/2210.03821v2)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**:  In this work, we present an algorithm, ICPI, that learns to perform RL tasks without expert demonstrations or gradients. Instead we present a policy-iteration method in which the prompt content is the entire locus of learning. ICPI iteratively updates the contents of the prompt from which it derives its policy through trial-and-error interaction with an RL environment. (LLM作为model-base强化学习的world-model和policy)
+
+
 #### Agent Action
 
 **[Agent Action] GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction**.   [[Paper](https://arxiv.org/abs/2305.18752)]  [[Code](https://github.com/AILab-CVC/GPT4Tools)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: we propose the GPT4Tools based on self-instruct to enable open-source LLMs, such as LLaMA and OPT, to use tools. It generates an instruction-following dataset by prompting an advanced teacher with various multi-modal contexts. (用gpt生成工具使用记录，再用LoRA微调开源模型) 
+
+**[Agent Action] AVIS: Autonomous Visual Information Seeking with Large Language Models**.  [[Paper](https://arxiv.org/abs/2306.08129v2)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**:  AVIS is an autonomous visual information seeking system that leverages a large language model (LLM) to dynamically strategize the utilization of external tools and to investigate their outputs, thereby acquiring the indispensable knowledge needed to provide answers to the posed questions. AVIS achieves state-of-the-art results on knowledge-intensive visual question answering benchmarks such as Infoseek and OK-VQA. (LLM动态制定使用外部工具的策略，从而获取视觉信息查询问题所需的必要知识)
 
 ### Agent Application
 
@@ -65,6 +72,31 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 #### Agent in Natural Science
 
+
+#### Agent in Engineer
+**[Agent in Engineer] Zero-shot Visual Relation Detection via Composite Visual Cues from Large Language Models**.  [[Paper](https://arxiv.org/abs/2305.12476)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**:  We propose a novel method for zero-shot VRD: RECODE, which solves RElation detection via COmposite DEscription prompts. Specifically, RECODE first decomposes each predicate category into subject, object, and spatial components. Then, it leverages large language models (LLMs) to generate description-based prompts (or visual cues) for each component. (通过LLM给出的复合视觉线索进行零样本视觉关系检测)
+
+**[Agent in Engineer] Zero-shot Visual Relation Detection via Composite Visual Cues from Large Language Models**.  [[Paper](https://arxiv.org/abs/2305.11175)] [[Code](https://github.com/OpenGVLab/VisionLLM)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**:  We present an LLM-based framework for vision-centric tasks, termed VisionLLM. This framework provides a unified perspective for vision and language tasks by treating images as a foreign language and aligning vision-centric tasks with language tasks that can be flexibly defined and managed using language instructions. An LLM-based decoder can then make appropriate predictions based on these instructions for open-ended tasks.(为以视觉为中心的任务提出了一个基于LLM的框架)
+
+**[Agent in Engineer] 3D-LLM: Injecting the 3D World into Large Language Models**.  [[Paper](https://arxiv.org/abs/2307.12981)] [[Code](https://vis-www.cs.umass.edu/3dllm/)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**:  We propose to inject the 3D world into large language models and introduce a whole new family of 3D-LLMs. Specifically, 3D-LLMs can take 3D point clouds and their features as input and perform a diverse set of 3D-related tasks, including captioning, dense captioning, 3D question answering, task decomposition, 3D grounding, 3D-assisted dialog, navigation, and so on. (将3D世界注入到LLM中)
+
+**[Agent in Engineer] Grammar Prompting for Domain-Specific Language Generation with Large Language Models**.  [[Paper](https://arxiv.org/abs/2305.19234)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**:  
+The paper explores the use of grammar prompting as a simple approach to enable large language models (LLMs) to use external knowledge and domain-specific constraints during in-context learning. The authors demonstrate that grammar prompting can enable LLMs to perform competitively on a diverse set of domain-specific language generation tasks, including semantic parsing, PDDL planning, and even molecule generation.(使用语法提示使LLMs在上下文学习期间使用外部知识和领域特定约束。)
+
+### Agent Evaluation
+**[Agent Evaluation] Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples**.  [[Paper](https://arxiv.org/abs/2305.15269)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**:  To measure the general deductive reasoning ability of LLMs, we test on a broad set of deduction rules and measure their ability to generalize to more complex proofs from simpler demonstrations from multiple angles: depth-, width-, and compositional generalization. To facilitate systematic exploration, we construct a new synthetic and programmable reasoning dataset that enables control over deduction rules and proof complexity.  (使用OOD示例评估LLM的推理能力)
+
+**[Agent Evaluation] Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples**.  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**:  
+We propose CogEval, a Cognitive Science-Inspired protocol for Measurement and Evaluation for Large Language Models. Second, we use CogEval to systematically evaluate hypothesized latent abilities, cognitive maps and planning, across a number of LLMs using tasks with established construct validity and absent from LLM training sets. We find that, while LLMs show apparent competence in a few tasks with smaller graphs, evidence suggests against emergent planning capacities as they lack genuine understanding of latent task structures. (提出一种受认知科学启发的协议CogEval用于LLM的评估。)
+
+**On the Planning Abilities of Large Language Models - A Critical Investigation**.  (2023-NIPS)
+=======
 **[Natural Science] De novo Drug Design using Reinforcement Learning with Multiple GPT Agents**.    <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: Awaiting publication.
 
@@ -83,6 +115,8 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 **[Agent Evaluation] On the Planning Abilities of Large Language Models - A Critical Investigation**.   [[Paper](https://arxiv.org/abs/2302.06706)]  [[Code](https://github.com/karthikv792/LLMs-Planning)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: By developing a benchmark suite based on the International Planning Competition, the study evaluates the performance of LLMs in three modes: autonomous, heuristic, and human-in-the-loop. (评估LLM的Planning能力)
+
+
 
 
 
