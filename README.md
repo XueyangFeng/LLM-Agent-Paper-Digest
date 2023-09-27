@@ -72,8 +72,18 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 #### Agent in Natural Science
 
+**[Natural Science] De novo Drug Design using Reinforcement Learning with Multiple GPT Agents**.    <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: Awaiting publication.
 
 #### Agent in Engineering
+
+**[Engineering] LLMs for Semi-Automated Data Science: Introducing CAAFE for Context-Aware Automated Feature Engineering**.   [[Paper](https://arxiv.org/pdf/2305.03403.pdf)]  [[Code](https://github.com/automl/CAAFE)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: This paper introduces a method called CAAFE that harnesses Large Language Models for feature engineering on tabular datasets. CAAFE iteratively generates semantically meaningful features based on dataset descriptions and provides explanations for the created features. This approach has improved performance across multiple datasets. (LLM自动优化特征工程)
+
+
+**[Engineering] SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models**   [[Paper](https://arxiv.org/abs/2305.19308)]  [[Code](https://sheetcopilot-demo.github.io/)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: The paper presents SheetCopilot, an agent using Large Language Models to interact with spreadsheets via natural language. It translates complex requests into actionable steps, outperforming traditional programming methods in various tasks. (Agent和电子表格交互)
+
 **[Engineering] Zero-shot Visual Relation Detection via Composite Visual Cues from Large Language Models**.  [[Paper](https://arxiv.org/abs/2305.12476)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  We propose a novel method for zero-shot VRD: RECODE, which solves RElation detection via COmposite DEscription prompts. Specifically, RECODE first decomposes each predicate category into subject, object, and spatial components. Then, it leverages large language models (LLMs) to generate description-based prompts (or visual cues) for each component. (通过LLM给出的复合视觉线索进行零样本视觉关系检测)
 
@@ -94,24 +104,6 @@ The paper explores the use of grammar prompting as a simple approach to enable l
 **[Agent Evaluation] Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples**.  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  
 We propose CogEval, a Cognitive Science-Inspired protocol for Measurement and Evaluation for Large Language Models. Second, we use CogEval to systematically evaluate hypothesized latent abilities, cognitive maps and planning, across a number of LLMs using tasks with established construct validity and absent from LLM training sets. We find that, while LLMs show apparent competence in a few tasks with smaller graphs, evidence suggests against emergent planning capacities as they lack genuine understanding of latent task structures. (提出一种受认知科学启发的协议CogEval用于LLM的评估。)
-
-**On the Planning Abilities of Large Language Models - A Critical Investigation**.  (2023-NIPS)
-=======
-**[Natural Science] De novo Drug Design using Reinforcement Learning with Multiple GPT Agents**.    <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
-**TLDR**: Awaiting publication.
-
-
-#### Agent in Engineering
-
-**[Engineering] LLMs for Semi-Automated Data Science: Introducing CAAFE for Context-Aware Automated Feature Engineering**.   [[Paper](https://arxiv.org/pdf/2305.03403.pdf)]  [[Code](https://github.com/automl/CAAFE)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
-**TLDR**: This paper introduces a method called CAAFE that harnesses Large Language Models for feature engineering on tabular datasets. CAAFE iteratively generates semantically meaningful features based on dataset descriptions and provides explanations for the created features. This approach has improved performance across multiple datasets. (LLM自动优化特征工程)
-
-
-**[Engineering] SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models**   [[Paper](https://arxiv.org/abs/2305.19308)]  [[Code](https://sheetcopilot-demo.github.io/)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
-**TLDR**: The paper presents SheetCopilot, an agent using Large Language Models to interact with spreadsheets via natural language. It translates complex requests into actionable steps, outperforming traditional programming methods in various tasks. (Agent和电子表格交互)
-
-
-### Agent Evaluation
 
 **[Agent Evaluation] On the Planning Abilities of Large Language Models - A Critical Investigation**.   [[Paper](https://arxiv.org/abs/2302.06706)]  [[Code](https://github.com/karthikv792/LLMs-Planning)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: By developing a benchmark suite based on the International Planning Competition, the study evaluates the performance of LLMs in three modes: autonomous, heuristic, and human-in-the-loop. (评估LLM的Planning能力)
