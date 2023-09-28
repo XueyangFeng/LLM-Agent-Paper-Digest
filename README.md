@@ -1,4 +1,4 @@
-# Awesome-LLM-Agent-Papers
+# LLM-Agent-Paper-Digest
 For benefiting the research community and promoting LLM-powered agent direction, we organize papers related to LLM-powered agent that published on top conferences recently. Currently, our repository has included:
 - `2023`: `NIPS`
 
@@ -55,7 +55,7 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **TLDR**: Using Large Language Models (LLMs) as Common Sense World Models and Heuristic Strategies to Solve Complex Task Planning Prob. (利用大型语言模型（LLMs）作为常识世界模型和启发式策略来解决复杂任务规划问题) 
 
 **[Agent Planning] Tree of Thoughts: Deliberate Problem Solving with Large Language Models**.   [[Paper](https://arxiv.org/abs/2305.10601)]  [[Code](https://github.com/ysymyth/tree-of-thought-llm)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
-**TLDR**: we introduce a new framework for language model inference, "Tree of Thoughts" (ToT), which generalizes over the popular "Chain of Thought" approach to prompting language models, and enables exploration over coherent units of text ("thoughts") that serve as intermediate steps toward problem solving. (鼓励大模型考虑多个不同的推理路径) 
+**TLDR**: we introduce a new framework for language model inference, "Tree of Thoughts" (ToT), which generalizes over the popular "Chain of Thought" approach to prompting language models, and enables the exploration of tree-like thought about multiple paths to problem solving. (鼓励大模型考虑多个不同的推理路径) 
 
 **[Agent Planning] Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning**.   [[Paper](https://arxiv.org/abs/2305.14909)]  [[Code](https://github.com/GuanSuns/LLMs-World-Models-for-Planning)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  we introduce a novel alternative paradigm that constructs an explicit world (domain) model in planning domain definition language (PDDL) and then uses it to plan with sound domain-independent planners.  (大模型+外部规划器) 
