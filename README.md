@@ -87,7 +87,7 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 #### Agent in Engineering
 
-**[Engineering] LLMs for Semi-Automated Data Science: Introducing CAAFE for Context-Aware Automated Feature Engineering**.   [[Paper](https://arxiv.org/pdf/2305.03403.pdf)]  [[Code](https://github.com/automl/CAAFE)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**[Engineering] LLMs for Semi-Automated Data Science: Introducing CAAFE for Context-Aware Automated Feature Engineering**.   [[Paper](https://arxiv.org/abs/2305.03403)]  [[Code](https://github.com/automl/CAAFE)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: This paper introduces a method called CAAFE that harnesses Large Language Models for feature engineering on tabular datasets. CAAFE iteratively generates semantically meaningful features based on dataset descriptions and provides explanations for the created features. This approach has improved performance across multiple datasets. (LLM自动优化特征工程)
 
 
@@ -115,7 +115,7 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Agent Evaluation] Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples**.  [[Paper](https://arxiv.org/abs/2305.15269)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  To measure the general deductive reasoning ability of LLMs, we test on a broad set of deduction rules and measure their ability to generalize to more complex proofs from simpler demonstrations from multiple angles: depth-, width-, and compositional generalization. To facilitate systematic exploration, we construct a new synthetic and programmable reasoning dataset that enables control over deduction rules and proof complexity. (使用OOD示例评估LLM的推理能力)
 
-**[Agent Evaluation] Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples**.  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**[Agent Evaluation] Evaluating Cognitive Maps in Large Language Models: No Emergent Planning**.  [[Paper](https://arxiv.org/abs/2309.15129)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  We propose CogEval, a Cognitive Science-Inspired protocol for Measurement and Evaluation for Large Language Models. Second, we use CogEval to systematically evaluate hypothesized latent abilities, cognitive maps and planning, across a number of LLMs using tasks with established construct validity and absent from LLM training sets. We find that, while LLMs show apparent competence in a few tasks with smaller graphs, evidence suggests against emergent planning capacities as they lack genuine understanding of latent task structures. (提出一种受认知科学启发的协议CogEval用于LLM的评估。)
 
 **[Agent Evaluation] On the Planning Abilities of Large Language Models - A Critical Investigation**.   [[Paper](https://arxiv.org/abs/2302.06706)]  [[Code](https://github.com/karthikv792/LLMs-Planning)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
