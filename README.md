@@ -1,4 +1,4 @@
-# Awesome-LLM-Agent-Papers
+# LLM-Agent-Paper-Digest
 For benefiting the research community and promoting LLM-powered agent direction, we organize papers related to LLM-powered agent that published on top conferences recently. Currently, our repository has included:
 - `2023`: `NIPS`
 
