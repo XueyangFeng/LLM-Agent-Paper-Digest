@@ -72,6 +72,9 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Agent Action] AVIS: Autonomous Visual Information Seeking with Large Language Models**.  [[Paper](https://arxiv.org/abs/2306.08129v2)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  AVIS is an autonomous visual information seeking system that leverages a large language model (LLM) to dynamically strategize the utilization of external tools and to investigate their outputs, thereby acquiring the indispensable knowledge needed to provide answers to the posed questions. AVIS achieves state-of-the-art results on knowledge-intensive visual question answering benchmarks such as Infoseek and OK-VQA. (LLM动态制定使用外部工具的策略，从而获取视觉信息查询问题所需的必要知识)
 
+**[Agent Action] HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face**.  [[Paper](https://arxiv.org/abs/2303.17580)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**TLDR**: HuggingGPT is a system designed to autonomously generate plans based on user requests and utilize models from Hugging Face. The workflow consists of task planning, model selection, task execution, and response generation. This design allows HuggingGPT to integrate multimodal perceptual capabilities and manage complex AI tasks. Experiments were conducted using various GPT models to ensure stable outputs, and the system was evaluated across different task types. (LLM生成计划并调用Hugging Face的模型完成任务)
+
 ### Agent Application
 
 #### Agent in Social Science
