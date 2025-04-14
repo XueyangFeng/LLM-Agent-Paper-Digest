@@ -42,9 +42,14 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Agent Memory] SwiftSage: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks**. [[Paper](https://arxiv.org/abs/2305.17390)] [[Code](https://github.com/yuchenlin/SwiftSage)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**: This paper introduces a novel agent framework called SWIFTSAGE, which combines a fast and intuitive thinking module, SWIFT, with a deliberate thinking module, SAGE, to optimize action planning in complex interactive reasoning tasks. SWIFT is a fine-tuned small encoder-decoder LM, while SAGE employs LLMs like GPT-4 for subgoal planning and grounding. (结合小模型快速思考和大模型深思熟虑) 
 
-**[Agent Memory] Large Language Model Is Semi-Parametric Reinforcement Learning Agent**.   [[Paper](https://arxiv.org/abs/2306.07929)] [[Code](https://github.com/opendfm/rememberer)] <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
+**[Agent Memory] Large Language Model Is Semi-Parametric Reinforcement Learning Agent**.   [[Paper](https://arxiv.org/abs/2306.07929)] [[Code](https://github.com/opendfm/rememberer)] <br>
 **TLDR**: By equipping the LLM with a longterm experience memory, REMEMBERER is capable of exploiting the experiences from the past episodes even for different task goals, which excels an LLM-based agent with fixed exemplars or equipped with a transient working memory. (为LLM配备长期经验记忆，构建一个半参数化的强化学习agent) 
 
+**[Agent Memory] JARVIS-1: Open-world Multi-task Agents with Memory-Augmented Multimodal Language Models**.  [[Paper](https://arxiv.org/abs/2311.05997)] [[Code](https://github.com/CraftJarvis/JARVIS-1)] <br>
+**TLDR**: Introduce embodied RAG. Embodied experiences are stored in the memory and will be reterived later for better task planning. (具身的检索增强生成，将具身经验以键值形式存放在记忆中，后续进行检索，改善具身规划能力) 
+
+**[Agent Memory] CLOVA: A Closed-LOop Visual Assistant with Tool Usage and Update**. [[Paper](https://arxiv.org/abs/2312.10908)] [[Code](https://clova-tool.github.io/)] <br>
+**TLDR**: Locate the error in LLM tool use from feedback and self-reflection, then update the tools from experiences collected on the web. (利用外部反馈对工具使用过程进行查错，并使用经验池进行工具修复) 
 
 #### Agent Planning
 
@@ -63,6 +68,8 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 **[Agent Planning] Large Language Models can Implement Policy Iteration**.  [[Paper](https://arxiv.org/abs/2210.03821v2)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  In this work, we present an algorithm, ICPI, that learns to perform RL tasks without expert demonstrations or gradients. Instead we present a policy-iteration method in which the prompt content is the entire locus of learning. ICPI iteratively updates the contents of the prompt from which it derives its policy through trial-and-error interaction with an RL environment. (LLM作为model-base强化学习的world-model和policy)
 
+**[Agent Planning] MindAgent: Emergent Gaming Interaction**.  [[Paper](https://arxiv.org/pdf/2309.09971)] [[Code](https://mindagent.github.io/)]  <br>
+**TLDR**: LLM based centralized multi-agent collaboration framework. (基于LLM的中心化多智能体协作规划框架) 
 
 #### Agent Action
 
