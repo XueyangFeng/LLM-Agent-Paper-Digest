@@ -115,6 +115,9 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 
 ### Agent Evaluation
+**[Agent Evaluation] ClawBench: A Benchmark for Real-World Web Agents**. [[Paper](https://arxiv.org/abs/2604.08523)] [[Code](https://github.com/TIGER-AI-Lab/ClawBench)] [[Project](https://claw-bench.com/)] <img src="https://img.shields.io/badge/arXiv-2026-b31b1b" alt="arXiv"> <br>
+**TLDR**: ClawBench evaluates browser and computer-use agents on 283 real-world tasks across 163 live websites, combining request interception with browser actions, screenshots, recordings, HTTP requests, and agent messages for outcome and trajectory analysis.
+
 **[Agent Evaluation] Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples**.  [[Paper](https://arxiv.org/abs/2305.15269)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  To measure the general deductive reasoning ability of LLMs, we test on a broad set of deduction rules and measure their ability to generalize to more complex proofs from simpler demonstrations from multiple angles: depth-, width-, and compositional generalization. To facilitate systematic exploration, we construct a new synthetic and programmable reasoning dataset that enables control over deduction rules and proof complexity. (使用OOD示例评估LLM的推理能力)
 
