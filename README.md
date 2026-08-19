@@ -86,6 +86,9 @@ We are glad for pointing out our misunderstandings, and welcome to contribute to
 
 #### Agent in Social Science
 
+**[Social Science] CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents**.  [[Paper](https://arxiv.org/abs/2608.16897)]  <img src="https://img.shields.io/badge/arXiv-2026-green" alt="license"> <br>
+**TLDR**:  A human-aligned large-scale LLM-agent simulation of urban behavior and city dynamics; intention-driven agents learn habits and preferences via textual adapters to match real population statistics at micro and macro scale.
+
 **[Social Science] Using Large Language Model Annotations for Valid Downstream Statistical Inference in Social Science: Design-Based Semi-Supervised Learning**.  [[Paper](https://arxiv.org/abs/2306.04746)]  <img src="https://img.shields.io/badge/NIPS-2023-green" alt="license"> <br>
 **TLDR**:  We present a new algorithm for using outputs from LLMs for downstream statistic alanalyses while guaranteeing statistical properties -- like asymptotic unbiasedness and proper uncertainty quantification -- which are fundamental to CSS research. (用LLM的输出进行社会科学的文档标签的下游统计分析)
 
